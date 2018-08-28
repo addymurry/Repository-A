@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Psychic Game</title>
-    </head>
-    <h1>
-        The Psychic Game
-    </h1>
-    <h2>
-        Guess what letter I'm thinking of
-    </h2>
-    <p id="wins">Wins</p>
-    <p id="losses">Losses</p>
-    <p id="guesses">Guesses</p>
-    <p id="guessesLeft"></p>
-    <script>
-    var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","x","y","z"];
+
+var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","x","y","z"];
     var wins=0;
     var losses=0;
     var guesses=[];
@@ -97,5 +81,3 @@
     };
 
 };
-    </script>
-</html>
